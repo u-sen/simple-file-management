@@ -1,0 +1,34 @@
+2022/6/24
+立项：test
+
+2022/7/4 
+完善基础功能
+重命名项目名：ProblemManagement
+确定版本：ProblemManagement_v1.0
+定义打包文件 ProblemManagement_v1.0.spec
+确定图标：Edititem.ico
+
+2022/7/5
+解决选择文件夹后，text控件输入中文-号会插入文件夹名bug。 注：text控件无法使用中文-号输入，需切换英文半角输入
+增加listbox控件回车事件，用于使用方向键选择文件夹确认。
+
+2022/7/6
+修复编辑写入bug
+
+2022/7/7
+修复新建文件夹，写入表格链接bug
+修复显示文名到输入框带空格bug
+增加格式化文件夹名及更新文件目录功能
+修改log class > E_file
+重写new_file方法
+增加cfg_ini方法
+添加选择目录和选择文件的cfg文件
+确定版本：ProblemManagement_v2.0
+
+2022/7/8
+修复新建文件夹时无法写入日志错误
+修复获取text控件内容最后一个带\n bug
+
+2022/7/9
+增加获取输入内容方法
+更新版本v2.1
